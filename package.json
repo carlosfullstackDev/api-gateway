@@ -1,7 +1,7 @@
 {
   "name": "api-gateway-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "Api gateway in node js to connect the front end of the caseAPalooza store with the backend microservices",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,6 +12,15 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
+    "passport": "^0.6.0",
     "twilio": "^4.9.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosfullstackDev/api-gateway.git"
+  },
+  "bugs": {
+    "url": "https://github.com/carlosfullstackDev/api-gateway/issues"
+  },
+  "homepage": "https://github.com/carlosfullstackDev/api-gateway#readme"
 }
